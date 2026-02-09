@@ -41,7 +41,6 @@ def make_random_vector2(R, length):
         res[i] = get_Rrandom(R)*q
     return vector(R, res)
 
-
 n, k = 36, 8
 prime_bit_length = 512
 p = getPrime(prime_bit_length)
