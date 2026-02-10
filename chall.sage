@@ -16,6 +16,7 @@ def make_G(R, alphas):
     mat = matrix(R, mat)
     return mat
 
+
 def split_p(R, p, prime_bit_length, length):
     step = ceil(prime_bit_length/length)
     res = []
