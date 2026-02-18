@@ -6,7 +6,6 @@ from flag import flag
 def get_Rrandom(R):
     return secrets.randbelow(int(R.order()))
 
-
 def make_G(R, alphas):
     mat = []
     for i in range(k):
